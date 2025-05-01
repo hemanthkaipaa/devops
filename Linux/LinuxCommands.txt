@@ -1,0 +1,46 @@
+
+Basic Linux commands for beginner devops Engineer..!
+0) cd  -> when you enter this it will change directory followed by path ex:
+	cd /d/project -> now you are in this directory.
+   cd .. This will take you 1 step backwards.
+1) $ -> when we are in Linux and we dollar then we are running Linux in user rights.
+2) # -> when we see hash symbol then we are running in root/admin/super user rights. here we have more privilege than normal 
+3) cd / -> you are in root directory
+4) pwd -> It will display in which path/directory you are in.
+5) ls -> It will show you all files in a horizontal list.
+6) ls -l -> It will show you all files in longlisting format/simply in detailed vertical list like windows.
+7) ls --help -> It will show you all helps related to list.
+8) ls -lh -> it will show you list size in human readable format
+9) ls -lr -> It will show you list with reversed alphabetical order.
+10) ls -lt -> It will show you list with sorted datetime order.
+11) ls -ltr -> It will show you list with sorted datetime reversed order.
+12) ls -ltrh -> It will show you list with sorted datetime reversed order with human readable bytes. like 1mb,10kb,100kb,1gb etc.
+13) touch <filename> -> this will create file in current directory.
+14) cat > <filename> -> cat meaning concatenate, it will write stream of input text to (filename)output.
+15) >    -> simply remember it will write output to a file.
+16) cat >> <filename> it will append the input to existing file without overwriting the same file by removing old content.
+17) mkdir <foldername> it will create a folder inside current directory.
+18) cat <filename> it will show the content which is inside the file.
+19) rmdir <foldername> it will remove the directory if it is empty
+20) rm -f <filename> delete the file forcedly.
+21) rm <filename> delete the file
+22) rm -rf <folder or filename> it will recursively and forcefully delete folder and its content.
+23) cp <sourcefile> <destination path> It will copy the source file to destination folder path.
+24) mv <sourcefile> <destination path> It will move file or folder to destination folder path.
+25) mv <filename> <new filename> we can rename the file or folder using mv command.
+26) wget <url> web get, we can download the files from website using this command. (Note: when connected to linux server this will work, in windows it will not work)
+27) curl <url> we can see the content of the url. instead of downloading we will use this command. (Note: when connected to linux server this will work, in windows it will not work)
+28) cat <filename>  |grep <options is optional> word -> it will display the text lines from the file which matches the word.
+					|grep -i word -> it ignores the case sensitive
+					|grep -n word -> it will display the matched text with line numbers
+					|grep -w word -> it will display lines which are matched exact text.
+					|grep -o word -> prints only matched part of matching lines. 
+					etc. grep -> (global search for regular expression and prints matching content)
+					This is based on piping concept
+29)grep <word> <filename>|grep <options is optional> word -> it will display the text lines from the file which matches the word.
+						|grep -i word -> it ignores the case sensitive
+						|grep -n word -> it will display the matched text with line numbers
+						|grep -w word -> it will display lines which are matched exact text.
+						|grep -o word -> prints only matched part of matching lines. 
+						etc.
+
